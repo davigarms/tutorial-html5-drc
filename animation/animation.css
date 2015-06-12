@@ -1,0 +1,82 @@
+@-webkit-keyframes myAnimation {
+     0% {
+         background-color: rgba(45, 54, 83,0);
+         -webkit-transform: scale(0, 0);
+         -moz-transform: scale(0, 0);
+         -ms-transform: scale(0, 0);
+         -o-transform: scale(0, 0);
+         transform: scale(0, 0);
+     }
+
+     60% {
+         -webkit-transform: scale(1.2, 1.2);
+         -moz-transform: scale(1.2, 1.2);
+         -ms-transform: scale(1.2, 1.2);
+         -o-transform: scale(1.2, 1.2);
+         transform: scale(1.2, 1.2);
+     }
+
+     100% {
+         -webkit-transform: scale(1, 1);
+         -moz-transform: scale(1, 1);
+         -ms-transform: scale(1, 1);
+         -o-transform: scale(1, 1);
+         transform: scale(1, 1);
+     }
+
+
+ }
+
+@-webkit-keyframes overAnimation {
+
+
+    60% {
+       /* -webkit-transform: scale(1.2, 1.2);
+        -moz-transform: scale(1.2, 1.2);
+        -ms-transform: scale(1.2, 1.2);
+        -o-transform: scale(1.2, 1.2);
+        transform: scale(1.2, 1.2);
+        background-color: #536a94;*/
+
+        -webkit-transform: rotate(-3deg) scale(1.2, 1.2);
+        -moz-transform: rotate(-3deg) scale(1.2, 1.2);
+        -ms-transform: rotate(-3deg) scale(1.2, 1.2);
+        -o-transform: rotate(-3deg) scale(1.2, 1.2);
+        transform: rotate(-3deg) scale(1.2, 1.2);
+        background-color: #536a94;
+    }
+
+    100% {
+        -webkit-transform: scale(1, 1);
+        -moz-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        -o-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+
+
+}
+
+
+
+.animation  {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(45, 54, 83,1);
+
+    -webkit-animation: myAnimation .8s;
+    -moz-animation: myAnimation .8s;
+    -o-animation: myAnimation .8s;
+    animation: myAnimation .8s;
+
+
+}
+
+.animation:hover  {
+    -webkit-animation: overAnimation .3s;
+    -moz-animation: overAnimation .3s;
+    -o-animation: overAnimation .3s;
+    animation: overAnimation .3s;
+
+
+}
