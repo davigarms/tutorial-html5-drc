@@ -1,0 +1,33 @@
+@-webkit-keyframes Anima {
+
+    25% {
+        left:85%;
+        top:0%;
+    }
+
+    50% {
+        left:85%;
+        top:75%;
+    }
+
+    75% {
+        left:0%;
+        top:75%
+    }
+
+}
+
+
+
+.anima-trans {
+    width: 200px;
+    height: 200px;
+    background-color: #9f8446;
+    position: absolute;
+    left:0px;
+    top: 0px;
+    -webkit-animation: Anima 4s infinite;
+    -moz-animation: Anima 4s infinite;
+    -o-animation: Anima 4s infinite;
+    animation: Anima 4s infinite;
+}
