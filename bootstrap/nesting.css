@@ -1,0 +1,43 @@
+.left {
+    background-color: #77ff43;
+}
+.left .sub-1 {
+    background-color: #b2ff09;
+}
+.left .sub-2 {
+    background-color: #35ff95;
+}
+.right {
+    background-color: #ff9632;
+}
+
+.left-2 {
+    background-color: #ff000d;
+    margin: 0;
+    padding: 0;
+}
+.right-2 {
+    background-color: #f04fff;
+    margin: 0;
+    padding: 0;
+}
+.primeira{
+    background-color: #30baff;
+    margin: 0;
+    padding: 0;
+}
+.segunda{
+    background-color: #2629ff;
+    margin: 0;
+    padding: 0;
+}
+.terceira{
+    background-color: #11f2ff;
+    margin: 0;
+    padding: 0;
+}
+.quarta{
+    background-color: #741bff;
+    margin: 0;
+    padding: 0;
+}

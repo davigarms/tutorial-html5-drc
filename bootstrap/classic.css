@@ -1,0 +1,27 @@
+
+section {
+    height: 700px;
+    color: #fff;
+    background-color: #2d3653;
+}
+
+h1 {
+    margin: 0;
+}
+
+header {
+    height:  100px;
+    background-color: #5c5f94;
+    color:white;
+
+}
+
+footer {
+    height: 100px;
+    background-color: #5c5f94;
+    color:white;
+}
+
+.center {
+    background-color: #192532;
+}

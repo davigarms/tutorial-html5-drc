@@ -1,0 +1,7 @@
+div[class*="col"]{
+    border: 5px solid red;
+}
+
+.row {
+    margin-top:100px
+}
