@@ -1,0 +1,24 @@
+.parent {
+  color: #f00;
+}
+.parent .child {
+  color: #00f;
+}
+.parent p {
+  margin-left: 100px;
+}
+div {
+  background-color: lime;
+}
+div > h1 {
+  background-color: yellow;
+}
+div + h1 {
+  background-color: green;
+}
+div:hover {
+  background-color: tomato;
+}
+div.product {
+  background-color: #fff;
+}

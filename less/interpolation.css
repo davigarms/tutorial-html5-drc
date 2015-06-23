@@ -1,0 +1,6 @@
+div.item {
+  width: 200px;
+  height: 200px;
+  background-color: #cccccc;
+  background-image: url('http://lorempixel.com/200/200/fashion');
+}

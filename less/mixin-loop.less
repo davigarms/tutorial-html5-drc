@@ -1,0 +1,19 @@
+.getSelector(@index; @size; @categoria) when (@index > 0) {
+
+  .getSelector(@index - 1; @size; @categoria);
+
+  .item-@{index} {
+    float:left;
+    width: ~'@{size}px';
+    height: ~'@{size}px';
+    background-image: url('http://lorempixel.com/@{size}/@{size}/@{categoria}/@{index}');
+  }
+
+}
+
+.getSelector(9; 300; fashion);
+
+
+/*
+função recursiva
+*/

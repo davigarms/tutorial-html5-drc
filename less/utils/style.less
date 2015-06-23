@@ -1,0 +1,15 @@
+//@import (less) "normalize.css"; //trata como less
+
+@import (reference) "utils.less";
+
+@import (inline) "normalize.css";
+
+@import "theme.less";
+
+.rotate {
+  .getPrefix(transform; rotate(180deg));
+}
+
+.transition {
+  .getPrefix(transition; width 2s);
+}

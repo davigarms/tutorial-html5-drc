@@ -1,0 +1,79 @@
+@number: 1 + 2 + 3 * 4;
+
+@pixel: 2 + 4px + 5;
+
+@cm: 2cm + 4px + 5mm;
+
+@pt: 2pt + 4px + 5mm;
+
+.gap(@value) {
+  margin: @value;
+  padding: @value /2;
+}
+
+.gap(@margin; @padding) {
+  margin: @margin;
+  padding: @padding;
+}
+
+.item-1 {
+  .gap (10px);
+}
+
+.item-2 {
+  .gap (10px, 15px);
+}
+
+.test-number {
+  content: @number;
+}
+
+.test-pixel {
+  content: @pixel;
+}
+
+.test-cm {
+  content: @cm;
+}
+
+.test-pt {
+  content: @pt;
+}
+
+
+
+/*
+funções nativas
+
+ceil()
+floor()
+round()
+convert() - converte unidade
+unit() - troca unidade
+
+
+coleções
+
+lenght(I)
+extract (I, p)
+max(I) - extrai maior valor
+min(I) - extrai menor valor
+iscolor(v) - verifica se é cor
+iskeyword(v) - qq coisa que não cor, numero ou url
+isnumber(v)
+isistring(v)
+isurl(v)
+ispixel(v)
+isem(v)
+ispercentage(v)
+isunit(v,u) - verifica qualquer unidade
+
+
+if >>> when ()
+else >>> when (default())
+negação  --> when not ()
+ou --> (condition), (condition)
+e --> (condition) and (condition)
+
+
+*/

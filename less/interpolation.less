@@ -1,0 +1,19 @@
+@path: 'http://lorempixel.com';
+
+@size: 200;
+
+@category: 'fashion';
+
+@className: item;
+
+div.@{className} {
+  width: ~'@{size}px';
+  height:  ~'@{size}px';
+  background-color: #cccccc;
+  background-image: url('@{path}/@{size}/@{size}/@{category}');
+}
+
+//interpolação para definir propriedades e concatenação de textos a partir de variaveis
+
+
+

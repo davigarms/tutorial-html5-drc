@@ -1,0 +1,55 @@
+.item-1 {
+  margin: 10px;
+  padding: 5px;
+}
+.item-2 {
+  margin: 10px;
+  padding: 15px;
+}
+.test-number {
+  content: 15;
+}
+.test-pixel {
+  content: 11px;
+}
+.test-cm {
+  content: 2.60583333cm;
+}
+.test-pt {
+  content: 19.17322835pt;
+}
+/*
+funções nativas
+
+ceil()
+floor()
+round()
+convert() - converte unidade
+unit() - troca unidade
+
+
+coleções
+
+lenght(I)
+extract (I, p)
+max(I) - extrai maior valor
+min(I) - extrai menor valor
+iscolor(v) - verifica se é cor
+iskeyword(v) - qq coisa que não cor, numero ou url
+isnumber(v)
+isistring(v)
+isurl(v)
+ispixel(v)
+isem(v)
+ispercentage(v)
+isunit(v,u) - verifica qualquer unidade
+
+
+if >>> when ()
+else >>> when (default())
+negação  --> when not ()
+ou --> (condition), (condition)
+e --> (condition) and (condition)
+
+
+*/
